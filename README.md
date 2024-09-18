@@ -11,6 +11,7 @@
 
 ## application/x-www-form-urlencoded
 
+<img width="893" alt="Screenshot 2024-09-18 at 14 54 29" src="https://github.com/user-attachments/assets/b065f5ce-3fe4-4659-b08e-0fd218101dbe">
 
 
 `application/x-www-form-urlencoded` 방식은 HTML 폼 데이터를 서버로 전송하는 가장 기본적인 방법이다. 
@@ -45,8 +46,7 @@ Form 태그에 별도의 `enctype` 옵션이 없으면 웹 브라우저는 요�
 
 ## multipart/form-data
 
-
-
+<img width="889" alt="Screenshot 2024-09-18 at 14 55 45" src="https://github.com/user-attachments/assets/dc4dbd25-19fa-4695-8a71-657c873ff390">
 
 이 방식을 사용하려면 Form 태그에 별도의 `enctype="multipart/form-data"` 를 지정해야 한다. 
 
