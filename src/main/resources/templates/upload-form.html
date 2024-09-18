@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="py-5 text-center"><h2>상품 등록 폼</h2>
+    </div>
+    <h4 class="mb-3">상품 입력</h4>
+    <form enctype="multipart/form-data" method="post" th:action>
+        <ul>
+            <li>상품명 <input name="itemName" type="text"></li>
+            <li>파일<input name="file" type="file"></li>
+        </ul>
+        <input type="submit"/>
+    </form>
+</div> <!-- /container -->
+</body>
+</html>
